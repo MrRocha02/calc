@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-
+// código fodidão kkkkk
  int main () {
  	
  	float notas,media;
