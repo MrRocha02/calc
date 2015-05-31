@@ -3,11 +3,11 @@
 
 void imc (float n1,float n2){
 	   system("cls");
-       printf("\nDigite peso \n");
+       printf("\nDigite o peso \n");
        scanf("%f",&n1);
-       printf("\nDigite altura \n");
+       printf("\nDigite a altura \n");
        scanf("%f",&n2);
-       printf("\nSeu IMC: %.2f",n1/(n2*n2));}   
+       printf("\nO Seu IMC: %.2f",n1/(n2*n2));}   
 
 int main ()
 {
@@ -15,7 +15,7 @@ int main ()
 	float n1,n2;
 	int ops;
 
-	printf("******* MENU *******\n\n1 - IMC\n2 - CALCULADORA\n\n");
+	printf("****** MENU ******\n\n1 - IMC\n2 - CALCULADORA\n\n");
 	scanf("%d",&ops);
 	
 		if(ops ==1){
